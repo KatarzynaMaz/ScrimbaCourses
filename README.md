@@ -1,0 +1,1 @@
+This repository is for coding along Kalob Taulien's course JS for Beginners on Scrimba

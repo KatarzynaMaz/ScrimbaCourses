@@ -3,20 +3,21 @@
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport", content = "width = device-width, initial-scale=1.0">
-        <link src="styles.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
         <title>Project 4</title>
         
     </head>
     <body>
-        <div>        
+        <div id="calc">   
+            <div id="innerBox">     
                  <h1>Tip Calculator</h1>
              <form>
-                <p>Bill amount ($): <input type="text"id="billAmount" placeholder="bill amount" ></p>
-                <p>Tip(%): <input type="text" id="tip" placeholder="tip in %" ></p>
-                    <button onclick="calculateTotalBill()">Calculate</button>
+                <p>Bill amount ($): <input type="text"id="billAmount" class="inputBox" placeholder="bill amount" ></p>
+                <p>Tip(%): <input type="text" id="tip" class="inputBox" placeholder="tip in %" ></p>
+                    <button onclick="calculateTotalBill()" class="inputBox">Calculate</button>
                 <p> Total to Pay: $ <span id="amountToPay"></span></p>        
             </form>
-
+            <div>
         </div>    
      
             

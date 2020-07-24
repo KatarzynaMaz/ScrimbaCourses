@@ -1,0 +1,28 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 20px;
+    }
+
+.inputBox {
+    border-radius: 75px;
+
+}
+#calc {
+    background-color: azure;
+    border: solid 10px blue;
+    /*position: relative; */
+    margin: 0 auto;
+    text-align: center;
+}
+
+#innerBox {
+    margin: 20px;
+    display: inline-block;
+}
+
+h1 {
+
+}

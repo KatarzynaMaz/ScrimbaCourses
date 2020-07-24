@@ -3,26 +3,23 @@
     <head>
         <meta charset = "utf-8">
         <meta name = "viewport", content = "width = device-width, initial-scale=1.0">
+        <link src="styles.css" rel="stylesheet">
         <title>Project 4</title>
         
     </head>
     <body>
-        <div>
-             <h1>Tip Calculator</h1>
-            <p>Ennter the bill amount:<span id="tipAmount"></span></p>
+        <div>        
+                 <h1>Tip Calculator</h1>
+             <form>
+                <p>Bill amount ($): <input type="text"id="billAmount" placeholder="bill amount" ></p>
+                <p>Tip(%): <input type="text" id="tip" placeholder="tip in %" ></p>
+                    <button onclick="calculateTotalBill()">Calculate</button>
+                <p> Total to Pay: $ <span id="amountToPay"></span></p>        
+            </form>
 
-
-
-
-
-
-             <main>
-            <p> Your bill amount was <span i= "enter the bill "></span></p>
-
-         </main>    
-
-        
-            </div>
+        </div>    
+     
+            
         <script src = "app.js"></script>
     </body>
 </html>
